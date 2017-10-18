@@ -64,8 +64,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Contratacion.resx">
+      <DependentUpon>Contratacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Proceso.resx">
       <DependentUpon>Proceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Reclutamiento.resx">
+      <DependentUpon>Reclutamiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
