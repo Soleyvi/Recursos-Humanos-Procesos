@@ -87,9 +87,28 @@ namespace Recursos_Humanos_ProcesosFairy.Formularios
             }*/
         }
 
-        private void btnBuscar_Click(object sender, EventArgs e)
+      /*  private void btnBuscar_Click(object sender, EventArgs e)
         {
             string sql = "select Apellido, Nombre, Direccion, puesto from Personas where IdPersona=" + txtID.Text;
+        }*/
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("En realidad desea salir ", "RECURSOS HUMANOS ", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
+
+            Application.Exit();
+        }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btRegresar_Click(object sender, EventArgs e)
+        {
+            Form1 LLAMADA = new Form1();
+            this.Hide();
+            LLAMADA.ShowDialog();
         } 
     }
 }

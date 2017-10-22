@@ -16,5 +16,19 @@ namespace Recursos_Humanos_ProcesosFairy.Formularios
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("En realidad desea salir ", "RECURSOS HUMANOS ", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
+
+            Application.Exit();
+        }
+
+        private void btRegresar_Click(object sender, EventArgs e)
+        {
+            Form1 LLAMADA = new Form1();
+            this.Hide();
+            LLAMADA.ShowDialog();
+        }
     }
 }
