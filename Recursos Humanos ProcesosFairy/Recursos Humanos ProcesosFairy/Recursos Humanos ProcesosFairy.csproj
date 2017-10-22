@@ -44,17 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexiones.cs" />
     <Compile Include="Formularios\Contratacion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Contratacion.Designer.cs">
       <DependentUpon>Contratacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\Proceso.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\Proceso.Designer.cs">
-      <DependentUpon>Proceso.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Reclutamiento.cs">
       <SubType>Form</SubType>
@@ -66,9 +61,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\Contratacion.resx">
       <DependentUpon>Contratacion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Proceso.resx">
-      <DependentUpon>Proceso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Reclutamiento.resx">
       <DependentUpon>Reclutamiento.cs</DependentUpon>
