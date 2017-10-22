@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Recursos_Humanos_ProcesosFairy.Formularios
 {
-    public partial class PLANILLA : Form
+    public partial class Planilla : Form
     {
-        public PLANILLA()
+        public Planilla()
         {
             InitializeComponent();
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

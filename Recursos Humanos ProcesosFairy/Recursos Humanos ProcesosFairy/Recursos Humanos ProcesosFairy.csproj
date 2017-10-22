@@ -51,6 +51,12 @@
     <Compile Include="Formularios\Contratacion.Designer.cs">
       <DependentUpon>Contratacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Planilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Planilla.Designer.cs">
+      <DependentUpon>Planilla.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Reclutamiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\Contratacion.resx">
       <DependentUpon>Contratacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Planilla.resx">
+      <DependentUpon>Planilla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Reclutamiento.resx">
       <DependentUpon>Reclutamiento.cs</DependentUpon>

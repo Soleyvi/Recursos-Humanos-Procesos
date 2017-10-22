@@ -55,7 +55,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(708, 438);
+            this.btnSalir.Location = new System.Drawing.Point(267, 438);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 9;
@@ -64,7 +64,7 @@
             // 
             // btRegresar
             // 
-            this.btRegresar.Location = new System.Drawing.Point(587, 438);
+            this.btRegresar.Location = new System.Drawing.Point(172, 438);
             this.btRegresar.Name = "btRegresar";
             this.btRegresar.Size = new System.Drawing.Size(75, 23);
             this.btRegresar.TabIndex = 8;
@@ -129,7 +129,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 22);
+            this.label1.Location = new System.Drawing.Point(15, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 13);
             this.label1.TabIndex = 5;
@@ -165,7 +165,7 @@
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(160, 19);
+            this.txtID.Location = new System.Drawing.Point(151, 19);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(179, 20);
             this.txtID.TabIndex = 0;
@@ -178,14 +178,14 @@
             this.groupBox2.Controls.Add(this.btnNuevo);
             this.groupBox2.Location = new System.Drawing.Point(384, 22);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(143, 160);
+            this.groupBox2.Size = new System.Drawing.Size(143, 176);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Acciones";
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(18, 85);
+            this.btnEliminar.Location = new System.Drawing.Point(18, 90);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(119, 23);
             this.btnEliminar.TabIndex = 3;
@@ -195,7 +195,7 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(18, 114);
+            this.btnBuscar.Location = new System.Drawing.Point(18, 126);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(119, 23);
             this.btnBuscar.TabIndex = 2;
@@ -205,7 +205,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(18, 56);
+            this.btnGuardar.Location = new System.Drawing.Point(18, 61);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(119, 23);
             this.btnGuardar.TabIndex = 1;
@@ -215,7 +215,7 @@
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(18, 26);
+            this.btnNuevo.Location = new System.Drawing.Point(18, 32);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(119, 23);
             this.btnNuevo.TabIndex = 0;
@@ -228,7 +228,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(30, 215);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(614, 208);
+            this.dataGridView1.Size = new System.Drawing.Size(497, 208);
             this.dataGridView1.TabIndex = 12;
             // 
             // btnMostrar
@@ -244,7 +244,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(795, 473);
+            this.ClientSize = new System.Drawing.Size(578, 495);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox2);
