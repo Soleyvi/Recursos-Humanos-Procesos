@@ -45,17 +45,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexiones.cs" />
+    <Compile Include="Formularios\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Contratacion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Contratacion.Designer.cs">
       <DependentUpon>Contratacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Form1.cs">
+    <Compile Include="Formularios\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Formularios\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Planilla.cs">
       <SubType>Form</SubType>
@@ -69,12 +75,6 @@
     <Compile Include="Formularios\Reclutamiento.Designer.cs">
       <DependentUpon>Reclutamiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Usuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\Usuario.Designer.cs">
-      <DependentUpon>Usuario.cs</DependentUpon>
-    </Compile>
     <Compile Include="Informacion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,14 +84,14 @@
     <EmbeddedResource Include="Formularios\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Planilla.resx">
       <DependentUpon>Planilla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Reclutamiento.resx">
       <DependentUpon>Reclutamiento.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Usuario.resx">
-      <DependentUpon>Usuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

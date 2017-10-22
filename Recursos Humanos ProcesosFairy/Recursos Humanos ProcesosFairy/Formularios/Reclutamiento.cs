@@ -106,7 +106,7 @@ namespace Recursos_Humanos_ProcesosFairy.Formularios
 
         private void btRegresar_Click(object sender, EventArgs e)
         {
-            Form1 LLAMADA = new Form1();
+            Inicio LLAMADA = new Inicio();
             this.Hide();
             LLAMADA.ShowDialog();
         } 
