@@ -109,6 +109,18 @@ namespace Recursos_Humanos_ProcesosFairy.Formularios
             Inicio LLAMADA = new Inicio();
             this.Hide();
             LLAMADA.ShowDialog();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Recursos_Humanos_ProcesosFairy.Formularios.Contratacion llamada = new Contratacion();
+            this.Hide();
+            llamada.ShowDialog();
         } 
     }
 }

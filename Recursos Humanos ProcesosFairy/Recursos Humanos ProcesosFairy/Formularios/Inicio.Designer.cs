@@ -39,7 +39,7 @@
             // 
             // BtnContratacion
             // 
-            this.BtnContratacion.BackColor = System.Drawing.Color.Teal;
+            this.BtnContratacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.BtnContratacion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnContratacion.BackgroundImage")));
             this.BtnContratacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnContratacion.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -54,7 +54,7 @@
             // 
             // BtPlanilla
             // 
-            this.BtPlanilla.BackColor = System.Drawing.Color.Teal;
+            this.BtPlanilla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.BtPlanilla.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtPlanilla.BackgroundImage")));
             this.BtPlanilla.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtPlanilla.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -69,12 +69,12 @@
             // 
             // Btnreclutamiento
             // 
-            this.Btnreclutamiento.BackColor = System.Drawing.Color.Teal;
+            this.Btnreclutamiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.Btnreclutamiento.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Btnreclutamiento.BackgroundImage")));
             this.Btnreclutamiento.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Btnreclutamiento.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Btnreclutamiento.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnreclutamiento.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Btnreclutamiento.ForeColor = System.Drawing.Color.Silver;
             this.Btnreclutamiento.Location = new System.Drawing.Point(12, 12);
             this.Btnreclutamiento.Name = "Btnreclutamiento";
             this.Btnreclutamiento.Size = new System.Drawing.Size(175, 119);
@@ -95,7 +95,7 @@
             // btnInformacion
             // 
             this.btnInformacion.AccessibleRole = System.Windows.Forms.AccessibleRole.Grip;
-            this.btnInformacion.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnInformacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnInformacion.Font = new System.Drawing.Font("Tahoma", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInformacion.Location = new System.Drawing.Point(206, 12);
             this.btnInformacion.Name = "btnInformacion";
@@ -118,7 +118,7 @@
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // Form1
+            // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -130,7 +130,7 @@
             this.Controls.Add(this.Btnreclutamiento);
             this.Controls.Add(this.BtPlanilla);
             this.Controls.Add(this.BtnContratacion);
-            this.Name = "Form1";
+            this.Name = "Inicio";
             this.Text = "INICIO";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

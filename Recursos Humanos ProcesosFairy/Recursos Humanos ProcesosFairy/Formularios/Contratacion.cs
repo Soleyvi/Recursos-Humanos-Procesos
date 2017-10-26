@@ -30,5 +30,10 @@ namespace Recursos_Humanos_ProcesosFairy.Formularios
             this.Hide();
             LLAMADA.ShowDialog();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
