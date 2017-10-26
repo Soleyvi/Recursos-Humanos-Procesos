@@ -35,22 +35,22 @@
             this.lbComisiones = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.texComisiones = new System.Windows.Forms.TextBox();
+            this.texDescuentos = new System.Windows.Forms.TextBox();
+            this.texHorasTrabajadas = new System.Windows.Forms.TextBox();
+            this.texSueldoBase = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.texDias = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioExtraNormal = new System.Windows.Forms.RadioButton();
+            this.radioExtraNocturna = new System.Windows.Forms.RadioButton();
+            this.radioDiadedescanso = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.texAfp = new System.Windows.Forms.TextBox();
+            this.texISSS = new System.Windows.Forms.TextBox();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.lbNomina = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -83,20 +83,20 @@
             this.Calculo.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
             this.Calculo.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.Calculo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Calculo.Controls.Add(this.textBox7);
-            this.Calculo.Controls.Add(this.textBox6);
+            this.Calculo.Controls.Add(this.texISSS);
+            this.Calculo.Controls.Add(this.texAfp);
             this.Calculo.Controls.Add(this.btnMostrar);
             this.Calculo.Controls.Add(this.label7);
             this.Calculo.Controls.Add(this.label2);
             this.Calculo.Controls.Add(this.groupBox1);
             this.Calculo.Controls.Add(this.txtID);
             this.Calculo.Controls.Add(this.label1);
-            this.Calculo.Controls.Add(this.textBox5);
+            this.Calculo.Controls.Add(this.texDias);
             this.Calculo.Controls.Add(this.label6);
             this.Calculo.Controls.Add(this.label5);
-            this.Calculo.Controls.Add(this.textBox4);
-            this.Calculo.Controls.Add(this.textBox2);
-            this.Calculo.Controls.Add(this.textBox1);
+            this.Calculo.Controls.Add(this.texSueldoBase);
+            this.Calculo.Controls.Add(this.texDescuentos);
+            this.Calculo.Controls.Add(this.texComisiones);
             this.Calculo.Controls.Add(this.label3);
             this.Calculo.Controls.Add(this.lbComisiones);
             this.Calculo.Location = new System.Drawing.Point(21, 3);
@@ -135,36 +135,36 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "Horas Extras Trabajadas";
             // 
-            // textBox1
+            // texComisiones
             // 
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(310, 73);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 3;
+            this.texComisiones.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texComisiones.Location = new System.Drawing.Point(310, 73);
+            this.texComisiones.Name = "texComisiones";
+            this.texComisiones.Size = new System.Drawing.Size(100, 22);
+            this.texComisiones.TabIndex = 3;
             // 
-            // textBox2
+            // texDescuentos
             // 
-            this.textBox2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(310, 104);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 4;
+            this.texDescuentos.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texDescuentos.Location = new System.Drawing.Point(310, 104);
+            this.texDescuentos.Name = "texDescuentos";
+            this.texDescuentos.Size = new System.Drawing.Size(100, 22);
+            this.texDescuentos.TabIndex = 4;
             // 
-            // textBox3
+            // texHorasTrabajadas
             // 
-            this.textBox3.Location = new System.Drawing.Point(166, 22);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 5;
+            this.texHorasTrabajadas.Location = new System.Drawing.Point(166, 22);
+            this.texHorasTrabajadas.Name = "texHorasTrabajadas";
+            this.texHorasTrabajadas.Size = new System.Drawing.Size(100, 22);
+            this.texHorasTrabajadas.TabIndex = 5;
             // 
-            // textBox4
+            // texSueldoBase
             // 
-            this.textBox4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(116, 67);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 6;
+            this.texSueldoBase.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texSueldoBase.Location = new System.Drawing.Point(116, 67);
+            this.texSueldoBase.Name = "texSueldoBase";
+            this.texSueldoBase.Size = new System.Drawing.Size(100, 22);
+            this.texSueldoBase.TabIndex = 6;
             // 
             // label5
             // 
@@ -184,15 +184,15 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(91, 14);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Diaz Trabajados";
+            this.label6.Text = "Dias Trabajados";
             // 
-            // textBox5
+            // texDias
             // 
-            this.textBox5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(116, 96);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 9;
+            this.texDias.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texDias.Location = new System.Drawing.Point(116, 96);
+            this.texDias.Name = "texDias";
+            this.texDias.Size = new System.Drawing.Size(100, 22);
+            this.texDias.TabIndex = 9;
             // 
             // dataGridView1
             // 
@@ -204,11 +204,11 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioDiadedescanso);
+            this.groupBox1.Controls.Add(this.radioExtraNocturna);
+            this.groupBox1.Controls.Add(this.radioExtraNormal);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.texHorasTrabajadas);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(428, 40);
             this.groupBox1.Name = "groupBox1";
@@ -217,42 +217,42 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Hora Extras";
             // 
-            // radioButton1
+            // radioExtraNormal
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.radioButton1.Location = new System.Drawing.Point(42, 60);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(123, 18);
-            this.radioButton1.TabIndex = 6;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Hora Extra Normal";
-            this.radioButton1.UseVisualStyleBackColor = false;
+            this.radioExtraNormal.AutoSize = true;
+            this.radioExtraNormal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.radioExtraNormal.Location = new System.Drawing.Point(42, 60);
+            this.radioExtraNormal.Name = "radioExtraNormal";
+            this.radioExtraNormal.Size = new System.Drawing.Size(123, 18);
+            this.radioExtraNormal.TabIndex = 6;
+            this.radioExtraNormal.TabStop = true;
+            this.radioExtraNormal.Text = "Hora Extra Normal";
+            this.radioExtraNormal.UseVisualStyleBackColor = false;
             // 
-            // radioButton2
+            // radioExtraNocturna
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.radioButton2.Location = new System.Drawing.Point(42, 83);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(141, 18);
-            this.radioButton2.TabIndex = 7;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Hora Extra Nocturnas";
-            this.radioButton2.UseVisualStyleBackColor = false;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.radioExtraNocturna.AutoSize = true;
+            this.radioExtraNocturna.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.radioExtraNocturna.Location = new System.Drawing.Point(42, 83);
+            this.radioExtraNocturna.Name = "radioExtraNocturna";
+            this.radioExtraNocturna.Size = new System.Drawing.Size(141, 18);
+            this.radioExtraNocturna.TabIndex = 7;
+            this.radioExtraNocturna.TabStop = true;
+            this.radioExtraNocturna.Text = "Hora Extra Nocturnas";
+            this.radioExtraNocturna.UseVisualStyleBackColor = false;
+            this.radioExtraNocturna.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
-            // radioButton3
+            // radioDiadedescanso
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.radioButton3.Location = new System.Drawing.Point(42, 106);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(177, 18);
-            this.radioButton3.TabIndex = 8;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Hora Extra dia de descanso ";
-            this.radioButton3.UseVisualStyleBackColor = false;
+            this.radioDiadedescanso.AutoSize = true;
+            this.radioDiadedescanso.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.radioDiadedescanso.Location = new System.Drawing.Point(42, 106);
+            this.radioDiadedescanso.Name = "radioDiadedescanso";
+            this.radioDiadedescanso.Size = new System.Drawing.Size(177, 18);
+            this.radioDiadedescanso.TabIndex = 8;
+            this.radioDiadedescanso.TabStop = true;
+            this.radioDiadedescanso.Text = "Hora Extra dia de descanso ";
+            this.radioDiadedescanso.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -274,21 +274,21 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "ISSS";
             // 
-            // textBox6
+            // texAfp
             // 
-            this.textBox6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(116, 129);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 13;
+            this.texAfp.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texAfp.Location = new System.Drawing.Point(116, 129);
+            this.texAfp.Name = "texAfp";
+            this.texAfp.Size = new System.Drawing.Size(100, 22);
+            this.texAfp.TabIndex = 13;
             // 
-            // textBox7
+            // texISSS
             // 
-            this.textBox7.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(116, 159);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 22);
-            this.textBox7.TabIndex = 14;
+            this.texISSS.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texISSS.Location = new System.Drawing.Point(116, 159);
+            this.texISSS.Name = "texISSS";
+            this.texISSS.Size = new System.Drawing.Size(100, 22);
+            this.texISSS.TabIndex = 14;
             // 
             // btnMostrar
             // 
@@ -299,6 +299,7 @@
             this.btnMostrar.TabIndex = 16;
             this.btnMostrar.Text = "Mostrar Datos";
             this.btnMostrar.UseVisualStyleBackColor = false;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // lbNomina
             // 
@@ -363,23 +364,23 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.GroupBox Calculo;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox texDias;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox texSueldoBase;
+        private System.Windows.Forms.TextBox texHorasTrabajadas;
+        private System.Windows.Forms.TextBox texDescuentos;
+        private System.Windows.Forms.TextBox texComisiones;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lbComisiones;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.RadioButton radioDiadedescanso;
+        private System.Windows.Forms.RadioButton radioExtraNocturna;
+        private System.Windows.Forms.RadioButton radioExtraNormal;
+        private System.Windows.Forms.TextBox texISSS;
+        private System.Windows.Forms.TextBox texAfp;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnMostrar;

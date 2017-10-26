@@ -19,13 +19,34 @@ namespace Recursos_Humanos_ProcesosFairy
 
         private void btnAceder_Click(object sender, EventArgs e)
         {
-            if (this.texUsuario.Text == "Recursos Humanos" || this.texUsuario.Text == "contraseña") ;
+            if (texUsuario.Text == "RecursosHumanos"|| texContraseña.Text=="1304")
+
             {
-                Recursos_Humanos_ProcesosFairy.Formularios.Inicio llamada = new Formularios.Inicio();
+                Recursos_Humanos_ProcesosFairy.Formularios.Inicio LLAMADA = new Formularios.Inicio();
                 this.Hide();
-                llamada.ShowDialog();
-              
+                LLAMADA.ShowDialog();
             }
+            else
+            {
+                MessageBox.Show("Nombre o Contraseña Incorrectos ");
+            }
+        }
+
+
+
+        private void checkBoxDescubrir_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxDescubrir.Checked==true)
+            {
+                texContraseña.UseSystemPasswordChar = false;
+
+            }
+            else
+            {
+                texContraseña.UseSystemPasswordChar = true;
+            }
+
+
         }
     }
 }

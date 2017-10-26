@@ -44,5 +44,10 @@ namespace Recursos_Humanos_ProcesosFairy.Formularios
             LLAMADA.ShowDialog();
 
         }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
